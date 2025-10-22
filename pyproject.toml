@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=65.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fse4ai-2025-final-project"
+version = "0.1.0"
+description = "AI Image Classifier final project for FSE4AI 2025"
+authors = [
+    { Name = "Iman chantieva", email = "fh.fawm@gmail.com" }
+    { Name = "Mohamed Nguira", email = "nguiramohamed@gmail.com" }
+    { Name = "Abdul-Malik Khatuev", email = "strannikvu@mail.ru" }
+    { Name = "Top Koryom", email = "toppdavid43@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "fastapi>=0.119.1",
+    "Pillow>=12.0.0",
+    "torch>=2.7.0",
+    "torchvision>=0.22.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "black",
+    "isort"
+]
