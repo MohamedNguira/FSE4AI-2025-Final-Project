@@ -1,9 +1,9 @@
 # FSE4AI-2025 Final Project - AI Image Classifier
 # TEAM 13:
-# Iman Chantieva
-# Abdul-Malik Khatuev
-# Top Koryom
-# Mokhamed Nguira
+ Iman Chantieva
+ Abdul-Malik Khatuev
+ Top Koryom
+ Mokhamed Nguira
 
 
 A web-based image classification application using FastAPI and PyTorch MobileNetV2. Upload an image and get instant predictions from a pre-trained neural network.
