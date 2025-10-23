@@ -25,3 +25,4 @@ jobs:
     # Optionally, run tests if you have them:
     - name: Run tests
       run: pytest || true
+
