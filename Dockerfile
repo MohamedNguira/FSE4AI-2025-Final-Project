@@ -18,6 +18,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy application code
 COPY app.py .
 COPY static ./static
+COPY src ./src
 
 # Create directory for ImageNet classes file
 RUN mkdir -p /app
