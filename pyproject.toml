@@ -22,7 +22,6 @@ dependencies = [
   "Pillow==10.2.0",
   "torch==2.2.0+cpu",
   "torchvision==0.17.0+cpu"
-
 ]
 
 [project.optional-dependencies]

@@ -22,7 +22,7 @@ jobs:
     - name: Install project (build with pyproject.toml)
       run: pip install . --extra-index-url https://download.pytorch.org/whl/cpu
 
-    # Optionally, run tests if you have them:
+    # Optionally, run tests if you have:
     - name: Run tests
       run: pytest || true
 
