@@ -7,9 +7,9 @@ name = "fse4ai-2025-final-project"
 version = "0.1.0"
 description = "AI Image Classifier final project for FSE4AI 2025"
 authors = [
-  { name = "Iman Chantieva", email = "fh.fawm@gmail.com" }
-  { name = "Mohamed Nguira", email = "nguiramohamed@gmail.com" }
-  { name = "Adbul-Malik Khatuev", email = "strannikvu@mail.ru" }
+  { name = "Iman Chantieva", email = "fh.fawm@gmail.com" },
+  { name = "Mohamed Nguira", email = "nguiramohamed@gmail.com" },
+  { name = "Adbul-Malik Khatuev", email = "strannikvu@mail.ru" },
   { name = "Top Koryom", email = "toppdavid43@gmail.com" }
 ]
 readme = "README.md"
