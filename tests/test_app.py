@@ -1,12 +1,14 @@
 import pytest
 from fastapi.testclient import TestClient
+from io import BytesIO
+from PIL import Image
 import sys
 import os
 
-# Add parent directory to path to import app
+# Add parent directory to path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from app import app
+from src.routes import app
 
 client = TestClient(app)
 
