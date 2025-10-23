@@ -74,8 +74,9 @@ def home():
                 --bg-1: #f7fbff;
                 --bg-2: #eef6ff;
                 --card: rgba(255,255,255,0.85);
-                --accent: #6c8cff;
-                --accent-600: #4f6fe6;
+                /* lighter/button accent colors */
+                --accent: #8fb4ff;
+                --accent-600: #6f9cff;
                 --muted: #6b7280;
                 --success: #dff3e1;
             }
